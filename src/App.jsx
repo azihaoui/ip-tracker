@@ -6,9 +6,15 @@ function App() {
 
   return (
     <div className="App">
-        <img src={Images} className='pattern' alt="" />
-        <h1 className='ip-address'>IP Address Tracker</h1>
-        <input type="text" name="" id="" />
+        <div className='pattern'>
+            <h1 className='ip-address'>IP Address Tracker</h1>
+            <div className='input'>
+                <input className='input-ip-address' type="text" name="" id="" />
+                <div className='input-button'></div>
+            </div>
+
+        </div>
+       
     </div>
   )
 }
