@@ -14,20 +14,42 @@
 .input {
     display: flex;
     background-color: white;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
+    width: 450px;
+    margin-bottom: 60px;
 }
 
 .input-ip-address {
     flex: 1;
     border: none;
+    border-radius: 10px 0px 0px 10px;
 
 }
 
 .input-button {
     height: 100%;
-    width: 30px;
-    background-color: gray;
+    width: 35px;
+    background-color: hsl(0, 0%, 17%);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.arrow {
+    width: 8px;
+    height: 8px;
+}
+
+.box {
+    width: 1100px;
+    height: 120px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 140px;
     border-radius: 10px;
 }
+
 
